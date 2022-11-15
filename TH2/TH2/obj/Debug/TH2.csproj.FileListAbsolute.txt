@@ -1,0 +1,12 @@
+D:\TH2_C#\TH2\TH2\bin\Debug\TH2.exe.config
+D:\TH2_C#\TH2\TH2\bin\Debug\TH2.exe
+D:\TH2_C#\TH2\TH2\bin\Debug\TH2.pdb
+D:\TH2_C#\TH2\TH2\obj\Debug\TH2.csprojAssemblyReference.cache
+D:\TH2_C#\TH2\TH2\obj\Debug\TH2.Form1.resources
+D:\TH2_C#\TH2\TH2\obj\Debug\TH2.Properties.Resources.resources
+D:\TH2_C#\TH2\TH2\obj\Debug\TH2.csproj.GenerateResource.cache
+D:\TH2_C#\TH2\TH2\obj\Debug\TH2.csproj.CoreCompileInputs.cache
+D:\TH2_C#\TH2\TH2\obj\Debug\TH2.exe
+D:\TH2_C#\TH2\TH2\obj\Debug\TH2.pdb
+D:\TH2_C#\TH2\TH2\obj\Debug\TH2.Adidas.resources
+D:\TH2_C#\TH2\TH2\obj\Debug\TH2.Nike.resources
