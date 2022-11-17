@@ -21,67 +21,65 @@ namespace TH2
             dt.Columns.Add("Image", typeof(string)); // string not int
             dt.Columns.Add("Category", typeof(string));
             dt.Columns.Add("Name", typeof(string));
-            dt.Columns.Add("Price", typeof(float));
-            
+            dt.Columns.Add("Price", typeof(string));
+
 
             // adidas
-            dt.Rows.Add("01", "Adidas", "Sneaker Adidas Ultraboost Dna Guard Core Black", 2.900);// sua lai nha
-            dt.Rows.Add("02", "Adidas", "Sneaker Adidas 4dfwd Pulse Black Sonic", 1900);
-            dt.Rows.Add("03", "Adidas", "Sneaker Adidas Alphabounce+ 3.0 Cloud White", 1500);
-            dt.Rows.Add("04", "Adidas", "Sneaker Adidas Ultraboost 1.0 Dna Solar Yello", 1900);
-            dt.Rows.Add("05", "Adidas", "Sneaker Adidas Ultraboost 22 White Solar Yellow", 2500);
-            dt.Rows.Add("06", "Adidas", "Sneaker Adidas Vs Pace Tech Indigo", 1900);
-            dt.Rows.Add("07", "Adidas", "Sneakers Adidas X9000l4 V2 Cold.Rdy Orbit Green", 2500);
-            dt.Rows.Add("08", "Adidas","Sneaker Adidas Stansmith Mule Green Classic", 1290);
-            dt.Rows.Add("09", "Adidas", "Sneaker Adidas Stansmith Vintage Navy", 1590);
-            dt.Rows.Add("10", "Adidas","Sneaker Adidas Adizero Boston 10 Rose Tone", 1900);
+            dt.Rows.Add("01", "Adidas", "Sneaker Adidas Ultraboost Dna Guard Core Black", "2.900.000");
+            dt.Rows.Add("02", "Adidas", "Sneaker Adidas 4dfwd Pulse Black Sonic", "1.900.000");
+            dt.Rows.Add("03", "Adidas", "Sneaker Adidas Alphabounce+ 3.0 Cloud White", "950.000");
+            dt.Rows.Add("04", "Adidas", "Sneaker Adidas Ultraboost 1.0 Dna Solar Yello", " 1.450.000");
+            dt.Rows.Add("05", "Adidas", "Sneaker Adidas Ultraboost 22 White Solar Yellow", "2.100.000");
+            dt.Rows.Add("06", "Adidas", "Sneaker Adidas Vs Pace Tech Indigo", "1.450,000");
+            dt.Rows.Add("07", "Adidas", "Sneakers Adidas X9000l4 V2 Cold.Rdy Orbit Green", "2.500.000");
+            dt.Rows.Add("08", "Adidas", "Sneaker Adidas Stansmith Mule Green Classic", "1.290.000");
+            dt.Rows.Add("09", "Adidas", "Sneaker Adidas Stansmith Vintage Navy", "1.590.000");
+            dt.Rows.Add("10", "Adidas", "Sneaker Adidas Adizero Boston 10 Rose Tone", "1.950.000");
 
-            dt.Rows.Add("11", "Nike","Nike Air Force 1 Celestine Blue", 2.650);
-            dt.Rows.Add("12", "Nike", "Nike Air Force Shadow Light Soft Pink", 1.950);
-            dt.Rows.Add("13", "Nike", "Nike Air Zoom Pegasus 38 W Black White", 1.950);
-            dt.Rows.Add("14", "Nike", "Nike Air Zoom Pegasus 39 Siren Red", 1.900);
-            dt.Rows.Add("15", "Nike", "Nike Air Max Alpha Tr 3 Core Black", 2.590);
-            dt.Rows.Add("16", "Nike", "Nike Air Zoom Pegasus 39 Cargo Khaki", 1.750);
-            dt.Rows.Add("17", "Nike", "Nike Court Vision Low White", 2.500);
-            dt.Rows.Add("18", "Nike", "Nike Court Vision Low Core Black ", 1.500);
-            dt.Rows.Add("19", "Nike", "Nike Air Zoom Pegasus 39 Cargo Khaki", 2.500);
-            dt.Rows.Add("20", "Nike", "Nike Precision 4 Black Gold", 2.500);
+            dt.Rows.Add("11", "Nike", "Nike Air Force 1 Celestine Blue", " 2.650.000");
+            dt.Rows.Add("12", "Nike", "Nike Air Force Shadow Light Soft Pink", "1.850.000");
+            dt.Rows.Add("13", "Nike", "Nike Air Zoom Pegasus 38 W Black White", "1.500.000");
+            dt.Rows.Add("14", "Nike", "Nike Air Zoom Pegasus 39 Siren Red", "1.450.000");
+            dt.Rows.Add("15", "Nike", "Nike Air Max Alpha Tr 3 Core Black", "1.100.000");
+            dt.Rows.Add("16", "Nike", "Nike Air Zoom Pegasus 39 Cargo Khaki", " 1.750.000");
+            dt.Rows.Add("17", "Nike", "Nike Court Vision Low White", " 2.100.000");
+            dt.Rows.Add("18", "Nike", "Nike Court Vision Low Core Black ", " 1.500.000");
+            dt.Rows.Add("19", "Nike", "Nike Air Zoom Pegasus 39 Cargo Khaki", " 2.250.000");
+            dt.Rows.Add("20", "Nike", "Nike Precision 4 Black Gold", "2.800,000");
 
-            dt.Rows.Add(16, "MLB", "Mlb Big Ball Chunky A New York Yankees White Gum", 1.900);
-            dt.Rows.Add(17, "MLB", "Mlb Bigball Chunky A La Dodgers ", 2.500);
-            dt.Rows.Add(18, "MLB", "Mlb Bigball Chunky New York Yankees Triple Black", 1.900);
-            dt.Rows.Add(19, "MLB", "Mlb Chunky High New York Yankees", 2.500);
-            dt.Rows.Add(20, "MLB", "Mlb Playball Mule Monogram Ny White", 1.900);
-            dt.Rows.Add(21, "MLB", "Mlb Playball Origin Mule New York Yankees White", 2.500);
-            dt.Rows.Add(22, "MLB", "Mlb Playball Origins New York Yankees", 1.900);
-
-
-            dt.Rows.Add(23, "Jordan", "Nike Air Jordan 1 Mid ‘Olive", 2.500);
-            dt.Rows.Add(24, "Jordan", "Nike Air Jordan 1 Mid Smoke Grey", 1.900);
-            dt.Rows.Add(25, "Jordan", "Nike Jordan 1 High Comfort Chile Red", 2.500);
-            dt.Rows.Add(26, "Jordan", "Nike Jordan 1 Mid Amory Navy", 1.900);
-            dt.Rows.Add(27, "Jordan", "Nike Jordan 1 Mid Gs Signal Blue", 2.500);
-            dt.Rows.Add(28, "Jordan", "Nike Jordan 1 Mid W Usa", 1.900);
-            dt.Rows.Add(29, "Jordan", "Nike Air Jordan 1 Gs Tie Dye", 2.500);
+            dt.Rows.Add("21", "MLB", "Mlb Big Ball Chunky A New York Yankees White Gum", "1.450.000");
+            dt.Rows.Add("22", "MLB", "Mlb Bigball Chunky A La Dodgers ", "1.900.000");
+            dt.Rows.Add("23", "MLB", "Mlb Bigball Chunky New York Yankees Triple Black", "2.250.000");
+            dt.Rows.Add("24", "MLB", "Mlb Chunky High New York Yankees", "2.100.000");
+            dt.Rows.Add("25", "MLB", "Mlb Playball Mule Monogram Ny White", "1.700.000");
+            dt.Rows.Add("26", "MLB", "Mlb Playball Origin Mule New York Yankees White", "1.450.500");
+            dt.Rows.Add("27", "MLB", "Mlb Big Ball Chunky A 32shcd111 50i Nyy Block", "1.950.00");
+            dt.Rows.Add("28", "MLB", "Mlb Bigball Chunky New York Yankees Triple Black", " 1.700.000");
+            dt.Rows.Add("29", "MLB", "Mlb Chunky Liner New York Yankess Off White", "2.900.000");
+            dt.Rows.Add("30", "MLB", "Mlb Playball Origins New York Yankees", " 2.100.000");
 
 
-            dt.Rows.Add(30, "VANS","VANS CHECKERBOARD SLIP-ON", 1.900);
-            dt.Rows.Add(31, "VANS", "VANS CLASSIC SK8-HI ", 2.500);
-            dt.Rows.Add(32, "VANS", "VANS FLAME SLIP-ON", 1.900);
-            dt.Rows.Add(34, "VANS", "VANS OLD SKOOL CLASSIC BLACK", 2.500);
-            dt.Rows.Add(34, "VANS", "VANS OLD SKOOL CLASSIC", 1.900);
-            dt.Rows.Add(35, "VANS", "VANS OLD SKOOL VARSITY CANVAS", 2.500);
-            dt.Rows.Add(36, "VANS", "VANS X MOCA BRENNA YOUNGBLOOD", 1.900);
+            dt.Rows.Add("31", "Jordan", "Nike Air Jordan 1 Mid ‘Olive", "2.100.000");
+            dt.Rows.Add("32", "Jordan", "Nike Air Jordan 1 Mid Smoke Grey", "1.900.000");
+            dt.Rows.Add("33", "Jordan", "Nike Jordan 1 High Comfort Chile Red", "2.500.000");
+            dt.Rows.Add("34", "Jordan", "Nike Jordan 1 Mid Amory Navy", "1.600.000");
+            dt.Rows.Add("35", "Jordan", "Nike Jordan 1 Mid Gs Signal Blue", "2.650.000");
+            dt.Rows.Add("36", "Jordan", "Nike Jordan 1 Mid W Usa", " 1.900.000");
+            dt.Rows.Add("37", "Jordan", "Nike Air Jordan 1 Gs Tie Dye", " 2.500.000");
+            dt.Rows.Add("38", "Jordan", "Nike Air Jordan 1 Low Grey Navy", "2.500.000");
+            dt.Rows.Add("39", "Jordan", "Nike Air Jordan 1 Mid Cream Grey", "2.250.000");
+            dt.Rows.Add("40", "Jordan", "Nike Air Jordan 1 Mid Schematic", " 2.500.000");
 
-                
-            dt.Rows.Add(37, "Adidas Ultraboost Dna Guard Core Black", 2.500);
-            dt.Rows.Add(38, "Sneaker Adidas 4dfwd Pulse Black Sonic", 1.900);
-            dt.Rows.Add(39, "Adidas Ultraboost Dna Guard Core Black", 2.500);
-            dt.Rows.Add(40, "Sneaker Adidas 4dfwd Pulse Black Sonic", 1.900);
-            dt.Rows.Add(41, "Adidas Ultraboost Dna Guard Core Black", 2.500);
-            dt.Rows.Add(42, "Sneaker Adidas 4dfwd Pulse Black Sonic", 1.900);
-            dt.Rows.Add(43, "Adidas Ultraboost Dna Guard Core Black", 2.500);
-            dt.Rows.Add(44, "Sneaker Adidas 4dfwd Pulse Black Sonic", 1900m);
+            dt.Rows.Add("41", "VANS", "VANS X MOCA BRENNA YOUNGBLOOD", "1.790.000");
+            dt.Rows.Add("42", "VANS", "VANS CHECKERBOARD SLIP-ON", " 1.900.000");
+            dt.Rows.Add("43", "VANS", "VANS CLASSIC SK8-HI ", " 2.000.000");
+            dt.Rows.Add("44", "VANS", "VANS FLAME SLIP-ON", "1.900.000");
+            dt.Rows.Add("45", "VANS", "VANS OLD SKOOL CLASSIC BLACK", "1.250.000");
+            dt.Rows.Add("46", "VANS", "VANS OLD SKOOL CLASSIC", " 1.250.000");
+            dt.Rows.Add("47", "VANS", "VANS OLD SKOOL VARSITY CANVAS", "1.750.000");
+            dt.Rows.Add("48", "VANS", "VANS CANVAS OLD SKOOL CLASSIC TRUE WHITE", " 1.900.000");
+            dt.Rows.Add("49", "VANS", "VANS DALLAS CLAYTON AUTHENTIC RAINBOW TRUE WHITE", "1.900.000");
+            dt.Rows.Add("50", "VANS", "VANS OLD SKOOL CLASSIC NAVY", "1.900.000");
 
         }
 
